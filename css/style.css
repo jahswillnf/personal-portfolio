@@ -1,9 +1,31 @@
 #navbar{
-    background-color: brown;
+    background-color: rgb(15, 4, 4);
     display: flex;
-    
+    justify-content: flex-end;
+    position: fixed;
 }
 #projects
 {
-height:100vh;
+    height:50vh;
 }
+
+.navbar-right {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding-right: 100px;
+    color:azure;
+}
+
+#welcome-section{
+    max-width: auto;
+    height: 100vh;
+    background-color: aquamarine;
+    padding: 50px;
+}
+@media (min-width: 768px) {
+    body {background-color: brown;};
+}
+a{
+    text-decoration: none;
+    }
